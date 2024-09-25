@@ -1,13 +1,34 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
 
-a {
-  color: orange;
+#weather {
+  padding: 50px;
 }
-
-a:hover {
-  color: black;
+#weather .data, #weather input, #weather #btn {
+  border-radius: 15px;
 }
-/*# sourceMappingURL=style.css.map */
+#weather .data {
+  text-align: center;
+  width: 200px;
+  height: 300px;
+  background-color: #a4caff;
+  padding: 10px;
+}
+#weather .data h1, #weather .data h2 {
+  margin: 15px;
+  color: white;
+  font-size: 18px;
+}
+#weather .data input {
+  width: 120px;
+  margin-bottom: 20px;
+}
+#weather .data #btn {
+  padding: 2px 20px;
+  background-color: #79afff;
+}
+#weather .data #btn h3 {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
