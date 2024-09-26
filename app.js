@@ -2,6 +2,7 @@
 $(document).ready(function () {
 
     $(document).on('keypress', function (e) {
+        console.log(e)
         if (e.which == 13) {
             let url = `https://api.openweathermap.org/data/2.5/weather?q=${$("#myWeather").val()}&appid=c26930c831e40ee5f58acf9b71786623&units=metric`
             async function myWeather() {
