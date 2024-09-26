@@ -9,8 +9,8 @@ $(document).ready(function () {
             let data = await responce.json()
             $('#city').html(data.name)
             $("#temp").html(data.main.temp)
-            $("#feels").html(data.sys.id)
-            console.log(data)
+            $("#feels").html(data.main.feels_like)
+            //console.log(data)
         }
         myWeather()
 

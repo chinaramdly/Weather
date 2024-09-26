@@ -25,10 +25,13 @@ body {
   width: 120px;
   margin-bottom: 20px;
 }
-#weather .data #btn {
-  padding: 2px 20px;
-  background-color: #79afff;
+#weather .data .minibox {
+  display: flex;
+  justify-content: center;
 }
-#weather .data #btn h3 {
+#weather .data .minibox #btn {
+  background-color: #79afff;
   color: white;
+  padding: 8px;
+  width: 80px;
 }/*# sourceMappingURL=style.css.map */
