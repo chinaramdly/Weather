@@ -11,19 +11,20 @@ body {
 }
 #weather .data {
   text-align: center;
-  width: 200px;
-  height: 300px;
+  width: 250px;
+  height: 400px;
   background-color: #a4caff;
   padding: 10px;
 }
 #weather .data h1, #weather .data h2 {
-  margin: 15px;
+  margin: 20px;
   color: white;
-  font-size: 18px;
+  font-size: 24px;
 }
 #weather .data input {
-  width: 120px;
-  margin-bottom: 20px;
+  width: 150px;
+  margin-bottom: 30px;
+  padding: 6px 15px;
 }
 #weather .data .minibox {
   display: flex;
@@ -32,6 +33,6 @@ body {
 #weather .data .minibox #btn {
   background-color: #79afff;
   color: white;
-  padding: 8px;
-  width: 80px;
+  padding: 9px;
+  width: 120px;
 }/*# sourceMappingURL=style.css.map */
