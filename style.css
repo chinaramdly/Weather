@@ -23,7 +23,7 @@ body {
 }
 #weather .data input {
   width: 150px;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   padding: 6px 15px;
 }
 #weather .data .minibox {
@@ -31,12 +31,8 @@ body {
   justify-content: center;
 }
 #weather .data .minibox #btn {
-  background-color: #3079e7;
+  background-color: #79afff;
   color: white;
   padding: 9px;
   width: 120px;
-}
-#weather .data .minibox #btn:hover {
-  background-color: #75a6ec;
-  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
